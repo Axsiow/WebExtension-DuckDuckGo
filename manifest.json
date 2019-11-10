@@ -1,19 +1,19 @@
 {
     "manifest_version": 2,
-    "name": "ChangerDevelopperTwitter",
+    "name": "CustomDuckDuckGo",
     "version": "1.0",
   
-    "description": "Change design for developer.twitter",
+    "description": "Change design of DuckDuckGo",
   
     "icons": {
-      "48": "icons/square-twitter-48.png",
-      "96": "icons/square-twitter-96.png"
+      "48": "icons/square-duckduckgo-48.png",
+      "96": "icons/square-duckduckgo-96.png"
     },
   
     "content_scripts": [
       {
         "matches": ["*://*.duckduckgo.com/*"],
-        "js": ["twitter.js"]
+        "js": ["duckduckgo.js"]
       }
     ]
   
