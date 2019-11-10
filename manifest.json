@@ -12,7 +12,7 @@
   
     "content_scripts": [
       {
-        "matches": ["*://*.developer.twitter.com/*"],
+        "matches": ["*://*.duckduckgo.com/*"],
         "js": ["twitter.js"]
       }
     ]
